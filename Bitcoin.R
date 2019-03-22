@@ -12,10 +12,10 @@ install.packages("Rstem_0.4-1.tar.gz", repos=NULL, type="source")
 download.file("http://cran.r-project.org/src/contrib/Archive/sentiment/sentiment_0.2.tar.gz", "sentiment.tar.gz")
 install.packages("sentiment.tar.gz", repos=NULL, type="source")
 install.packages("RCurl")
-consumer_key <- 'hXciUFIwuGeM1jjygmSP3mUxg'
-consumer_secret <- 'EWORqRjKX3x2b3uTz6DkIt9Uya7zP4Jg5FIBAchWkeMTF5BKAA'
-access_token <- '140815963-rNdoo8y0wwvzUAXFBgzE7GDYDpUrZ6AP4s42TV4j'
-access_secret <- 'IQZHbyIQKWF72UJ2eWBru1eBjnSZRcfP3sR2pzxz2zBEi'
+consumer_key <- '*****'
+consumer_secret <- '****'
+access_token <- '***'
+access_secret <- '***'
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret )
 
 
